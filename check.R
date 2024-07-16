@@ -1,8 +1,4 @@
 
-
-library(devtools)
-load_all()
-
 # Import metadata from pdf.
 herrington <- pdftools::pdf_text(pdf = "D:/OneDrive/Investigación/Artículos/00 - Referencias/MCPS/Herrington (2018).pdf")
 

@@ -1,0 +1,12 @@
+# pdf.tables
+
+## Overview
+
+This package was developed for quick and easy extraction of effect size tables (OR, RR, HR) from research articles. It uses the ``pdftools`` package for the extraction of metadata from documents with a .pdf extension. The ``tidyverse`` and ``stringr`` packages are used for the retrieval, manipulation and organisation of information.
+
+Pdf.table provides four functions to organize, extract, transform and ID the data:
+
++ ``str_split_pdf`` selects where the table is located in the metadata and organises the data.
++ ``pdf_tables`` extracts and sorts the data into a tibble. .
++ ``tables_extract`` extracts the effect size and the confidence intervals.
++ ``tables_ID`` adds ID, year, and other information to the data.
